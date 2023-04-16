@@ -13,6 +13,8 @@ struct PRsView: View {
     @State private var squatPR: Int = 0
     @State private var deadliftPR: Int = 0
     
+    @State private var showingAlert: Bool = false
+    
     var body: some View {
         NavigationView {
             Form {
@@ -37,7 +39,13 @@ struct PRsView: View {
                     ))
                 }
                 
-                Button("Update PRs", action: {updatePRs(weeks: weeks, weights: [benchPR, squatPR, deadliftPR])})
+                Button("Update PRs") {
+                    updatePRs(weeks: weeks, weights: [benchPR, squatPR, deadliftPR])
+                    showingAlert = true
+                }
+                .alert("PRs Updated 💪!\n\nCheck the Weeks tab for your updated program!", isPresented: $showingAlert) {
+                            Button("Ok", role: .cancel) { }
+                        }
                 
             }
             .navigationTitle("PRs")

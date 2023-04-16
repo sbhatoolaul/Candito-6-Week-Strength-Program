@@ -21,6 +21,13 @@ struct WeeksView: View {
                                 .padding(25)
                         }
                     }
+                    
+                    NavigationLink(destination:
+                                    Week6SpecialDetailView()) {
+                        Text("Week 6")
+                            .font(.headline)
+                            .padding(25)
+                    }
                 }.navigationTitle("Weeks")
             }
         }

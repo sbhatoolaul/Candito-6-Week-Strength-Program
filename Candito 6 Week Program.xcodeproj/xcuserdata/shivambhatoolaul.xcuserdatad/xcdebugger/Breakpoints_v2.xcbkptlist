@@ -14,8 +14,8 @@
             filePath = "Candito 6 Week Program/Model/InitialData.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "Week"
             landmarkType = "3">
             <Locations>
@@ -48,6 +48,36 @@
                   startingLineNumber = "0"
                   endingLineNumber = "0"
                   offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "D9BED707-3113-4A58-87B5-6A36FCC49AC0 - b954d7aac90c578a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Candito_6_Week_Program.Week.deinit"
+                  moduleName = "Candito 6 Week Program"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shivambhatoolaul/Documents/Swift%20Coding/Candito%206%20Week%20Program/Candito%206%20Week%20Program/Model/InitialData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "D9BED707-3113-4A58-87B5-6A36FCC49AC0 - b954d7aac90c5748"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Candito_6_Week_Program.Week.deinit"
+                  moduleName = "Candito 6 Week Program"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shivambhatoolaul/Documents/Swift%20Coding/Candito%206%20Week%20Program/Candito%206%20Week%20Program/Model/InitialData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "0">
                </Location>
             </Locations>
          </BreakpointContent>

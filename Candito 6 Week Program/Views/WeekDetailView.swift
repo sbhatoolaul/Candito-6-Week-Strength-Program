@@ -23,8 +23,12 @@ struct WeekDetailView: View {
                                 
                                 
                                 ForEach(exercise.loads) { load in
-                                    Text("\(load.weight)lbs × \(load.reps)")
-                                        .listRowSeparator(.hidden)
+                                    
+                                    VStack(alignment: .leading){
+                                        Text(load.weight==0 ? "× \(load.reps)" :  "\(load.weight)lbs × \(load.reps)")
+                                            .listRowSeparator(.hidden)
+                                        Text("\(load.comments)")
+                                    }
                                 }
                             }
                         }

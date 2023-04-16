@@ -16,6 +16,7 @@
 		8879304529D4091F00781B31 /* InitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8879304429D4091F00781B31 /* InitialData.swift */; };
 		8879304B29D4E76800781B31 /* WeekCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8879304A29D4E76800781B31 /* WeekCardView.swift */; };
 		8879304D29D4E7FC00781B31 /* WeekDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8879304C29D4E7FC00781B31 /* WeekDetailView.swift */; };
+		88DAD9BA29EC7FCD0053D0D8 /* Week6SpecialDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DAD9B929EC7FCD0053D0D8 /* Week6SpecialDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8879304429D4091F00781B31 /* InitialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialData.swift; sourceTree = "<group>"; };
 		8879304A29D4E76800781B31 /* WeekCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekCardView.swift; sourceTree = "<group>"; };
 		8879304C29D4E7FC00781B31 /* WeekDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDetailView.swift; sourceTree = "<group>"; };
+		88DAD9B929EC7FCD0053D0D8 /* Week6SpecialDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week6SpecialDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				8879303D29D3FE3E00781B31 /* WeeksView.swift */,
 				8879304A29D4E76800781B31 /* WeekCardView.swift */,
 				8879304C29D4E7FC00781B31 /* WeekDetailView.swift */,
+				88DAD9B929EC7FCD0053D0D8 /* Week6SpecialDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88DAD9BA29EC7FCD0053D0D8 /* Week6SpecialDetailView.swift in Sources */,
 				8879302C29D3FC0700781B31 /* TabsView.swift in Sources */,
 				8879303C29D3FE3500781B31 /* PRsView.swift in Sources */,
 				8879302A29D3FC0700781B31 /* Candito_6_Week_ProgramApp.swift in Sources */,
